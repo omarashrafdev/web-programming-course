@@ -1,0 +1,29 @@
+main {
+    font-family: monospace
+}
+
+header {
+    font-family: sans-serif;
+    
+}
+h1 {
+    border: 1px solid red;
+    padding: 10px;
+    height: 100px;
+    width: 80%;
+    margin: 15px auto;
+}
+
+p {
+    color: blueviolet;
+    
+}
+
+body {
+    text-align: center;
+    background-color: wheat;
+}
+
+footer {
+    margin: 20px 5px;
+}
