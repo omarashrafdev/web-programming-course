@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Registration Form</title>
+<meta charset="utf-8">
+<style>
+
+</style>
+</head>
+
+<body>
+<h1>Registration</h1>
+<form method="get">
+
+<label for="FName">First Name</label>
+<input type="text" name="FName" id="FName" placeholder="First name"><br><br>
+
+<label for="LName">Last Name</label>
+<input type="text" name="LName" id="LName"><br><br>
+
+<fieldset><legend>Gender</legend>
+    <input type="radio" name="Gender" id="Male" value="male">Male
+    <input type="radio" name="Gender" id="Female" value="female">Female
+</fieldset><br>
+
+<label for="BDate">Birth Date</label>
+<input type="date" name="BDate" id="BDate"><br><br>
+
+<label for="country">Country</label>
+<input type="text" name="country" id="country" list="countries" >
+<datalist id="countries">
+        <option value="Egypt">
+        <option value="US">
+        <option value="china">
+        <option value="India">
+</datalist><br><br>
+    
+    <select>
+    <option selected disabled value="">Select country</option>
+        <option value="Egypt">Egypt</option>
+        <option value="US">US</option>
+        <option value="china">china</option>
+        <option value="India">India</option>
+    </select><br><br>
+
+<label for="email">Email</label>
+<input type="email" name="email" id="email"><br><br>
+
+
+<label for="passw">Password</label>
+<input required type="password" name="passw" id="passw"><br><br>
+
+<label for="cpass">Confirm Password</label>
+<input type="password" name="passw" id="passw"><br><br>
+
+<label>How to Contact</label>
+       <input type="checkbox" name="bymail" id="bymail" value="yes">
+    <label for="bymail">By Mail</label>
+       <input type="checkbox" name="byphone" id="byphone" value="yes">
+    <label for="byphone">By Phone</label><br><br>
+
+<label for="myColor">Your favorite color</label>
+<input type="color" name="myColor" id="myColor"><br><br>
+
+<label for="cm">Additional Information</label>
+<textarea name="cm" id="cm" cols="40" rows="2"></textarea><br><br>
+
+<input type="submit" name="submit" id="submit" value="Submit">
+
+<input type="reset" value="Clear">
+</form>
+</body>
+</html>

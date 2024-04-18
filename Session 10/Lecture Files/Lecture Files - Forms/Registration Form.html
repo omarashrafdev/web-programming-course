@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Registration Form</title>
+<meta charset="utf-8">
+<style>
+
+</style>
+</head>
+
+<body>
+<h1>Registration</h1>
+<form method="get">
+    <label for="FName">First Name</label>
+    <input type="text" name="FName" id="FName"><br><br>
+    Last Name: <input type="text" name="LName" id="LName"><br><br>
+    
+   <fieldset><legend>Gender</legend>
+   <input type="radio" name="Gender" id="Male"  value="male">Male<br>
+   <input type="radio" name="Gender" id="Female" value="female">Female
+   </fieldset><br>
+   <label for="BDate">Birth Date</label>
+   <input type="date" name="BDate" id="BDate"><br><br>
+
+    Email:<input type=email name="Email" id="Email"><br><br>
+    Password: <input type="password" name="PWord" id="PWord"><br><br>
+    
+   <label for="country">Country</label>
+   <input type="text" name="country" id="country" list="countries" >
+   <datalist id="countries">
+        <option value="Egypt">
+        <option value="US">
+        <option value="china">
+        <option value="India">
+   </datalist><br><br>
+ 
+
+    Contact by: <input type="checkbox" name="bymail" id="bymail" value="mail">By Mail
+                <input type="checkbox" name="ByPhone" id="ByPhone" value="phone">By Phone<br><br>
+    Additional Information <br>
+    <textarea name=“Add" id=“Add" cols="40" rows="2"></textarea><br><br>
+
+    <input type="submit" name="submit" id="submit" value="Submit">
+    <input type="reset">
+
+</form>
+</body>
+</html>
